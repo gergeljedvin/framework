@@ -21,8 +21,9 @@ Go into the project directory, open the console and type in next commands:
 
 #### Install webdrivers
 
-Download and put webdrivers to correct place:
-Linux: executable_path is at '/usr/local/bin/
+Download and put webdrivers to correct place: 
+
+Path for webdrivers in Linux is at '/usr/local/bin/'
 
 #### Creating virtual environment for the testing
 
