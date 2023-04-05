@@ -21,7 +21,7 @@ Go into the project directory, open the console and type in next commands:
 
 #### Install webdrivers
 
-Download and put webdrivers to correct place
+Download and put webdrivers to correct place:
 Linux: executable_path is at '/usr/local/bin/
 
 #### Creating virtual environment for the testing
@@ -181,10 +181,6 @@ The **test_dummy.py** file is created for local testing and should not be update
 
 ### Test runs
 
-To run test first check configuration file at **config.ini**. You can copy example configuration from **config.ini.example**:
-
-    cp config.ini.example config.ini
-
 Test runs are capable to run in single-sequential or parallel order, packaged into some runner file e.g. testrunner.py and the executions can be conducted with various commands:
 
 Run single-sequential, example command:
@@ -205,7 +201,3 @@ For more commands run:
 
     ./run_test.py --help
 
-### Additional
-
-This document will be expanded in need, if some major changes or additions happened to the framework. This is a basic guideline to work with the framework with assumption that developer has
-some previous skills in OOP, Python or other language and previous familiarity with the guides listed above.
