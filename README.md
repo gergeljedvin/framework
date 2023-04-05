@@ -189,15 +189,15 @@ Test runs are capable to run in single-sequential or parallel order, packaged in
 
 Run single-sequential, example command:
 
-    ./run_test.py tests/testdummy.py
+    ./run_test.py tests/test_dummy.py
 
 Run parallel with 3 browsers, example command:
 
-    ./run_test.py -n 3 tests/testdummy.py -n 3
+    ./run_test.py -n 3 tests/test_dummy.py -n 3
 
 Run in parallel with HTML report generation at the end, example command:
 
-    ./run_test.py --html tests/testdummy.py -n 3
+    ./run_test.py --html tests/test_dummy.py -n 3
 
 **NOTE:** Combination of commands is possible, the pytest will parse it and work with it accordingly, parallel or single test run. The --html command will create the html report file in the report folder whit name of the runner file and timestamp (example: testdummy_02-04-2019_11-33-57.html )
 
