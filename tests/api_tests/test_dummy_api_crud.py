@@ -6,6 +6,7 @@ class TestDummyApiCRUD(object):
 
     def test_api_crud(self):
 
+        # Free api
         api_url = "https://api.restful-api.dev/objects/"
 
         # POST request - Create an object
