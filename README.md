@@ -21,9 +21,8 @@ Go into the project directory, open the console and type in next commands:
 
 #### Install webdrivers
 
-This command will install webdrivers for Linux:
-
-    ./install.sh
+Download and put webdrivers to correct place
+Linux: executable_path is at '/usr/local/bin/
 
 #### Creating virtual environment for the testing
 
@@ -37,7 +36,7 @@ your machine as per requirements. Open console and direct yourself to the locati
 
 or in case that previous command throws error try:
 
-    pip install virtualenv
+    pip3 install virtualenv
 
 To initialize virtual environment create a **venv** folder into the project directory and initialize it with command:
 
@@ -50,11 +49,11 @@ To initialize virtual environment create a **venv** folder into the project dire
 
 Having the downloaded text file **requirements.txt** install them into venv with command
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 For any further updates/changes regarding the requirements to update the venv use command:
 
-    pip install -r requirements.txt --upgrade
+    pip3 install -r requirements.txt --upgrade
 
 This should keep up to date with new plugins and libraries added to project. But please do not add those into Git repo
 unless there is an agreement to use it in the future, not just local branch experiment.
@@ -71,7 +70,7 @@ Additional useful tutorials for setup:
 [Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
 
-### Webdrivers fo Windows
+### Webdrivers for Windows
 
 Any webdriver desired to be used on by default for framework is on path "C:\webdrivers\YOUR_DRIVER" (ChromeDriver, InternetExplorerDriver...)
 
