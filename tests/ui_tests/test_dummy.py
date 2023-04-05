@@ -8,10 +8,9 @@ class TestDummy(BaseTestCase):
     def setUp(self):
         super(TestDummy, self).setUp()
 
-    def test_google_search(self):
+    def test_demo_qa(self):
         driver = self.driver
 
-        # Google Search
         demoqa_page = DemoqaPage(driver)
 
         # Is the Logo visible on the page
